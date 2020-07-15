@@ -29,7 +29,6 @@ void covert(struct TreeNode* root,int* sum){
     *sum +=root->val;
     root->val = *sum ;
     covert(root->left,sum);
-    
 }
 
 
