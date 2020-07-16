@@ -19,6 +19,15 @@ int pathSum(struct TreeNode* root, int sum){
 
 }
 
+int search(struct TreeNode* root,int temp_sum){
+    if(root ==NULL){
+        return 0;
+    }
+    
+}
+
+
+
 
 // @lc code=end
 
