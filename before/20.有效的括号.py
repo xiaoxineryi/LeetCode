@@ -14,7 +14,7 @@ class Solution:
                 stack_left.append(c)
             else:
                 if not stack_left:
-                   return False 
+                    return False 
                 l = stack_left.pop()
                 if mapping[l] != c:
                     return False
