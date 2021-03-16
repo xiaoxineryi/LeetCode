@@ -1,5 +1,5 @@
-a = {1:'3',3:'4'}
+a = []
+for s in a:
+    a.append(2)
 
-key = a.keys()
-k= sorted(key,reverse=True)
-print(k)
+print(a)
