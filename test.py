@@ -1,5 +1,9 @@
 a = []
-for s in a:
-    a.append(2)
+b = []
+a.append(b)
+print(a)
 
+for l in a:
+    l.append(1)
+    l.append(2)
 print(a)
